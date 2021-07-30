@@ -11,28 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28c1674b-f0c1-4553-9939-f98df5487be6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/screens/HomeScreen/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/MarketScreen/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/PortforlioScreen/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/ProfileScreen/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/RankingsScreen/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Saly-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Saly-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Saly-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Saly-17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Saly-20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Saly-31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/HomeScreen/styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/EditScreenInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EditScreenInfo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/StyledText.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StyledText.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Themed.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Themed.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/__tests__/StyledText-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/__tests__/StyledText-test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/Colors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/Colors.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/Layout.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/Layout.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/useCachedResources.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useCachedResources.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/useColorScheme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useColorScheme.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navigation/BottomTabNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/BottomTabNavigator.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navigation/LinkingConfiguration.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/LinkingConfiguration.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navigation/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/NotFoundScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/NotFoundScreen.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/TabOneScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/TabOneScreen.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/TabTwoScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/TabTwoScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/navigation/BottomTabNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/BottomTabNavigator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/HomeScreen/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/HomeScreen/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/types.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/types.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +74,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/screens/RankingsScreen" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="aws" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
@@ -98,11 +87,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$/src/screens/RankingsScreen" />
       <recent name="$PROJECT_DIR$/src/screens/ProfileScreen" />
       <recent name="$PROJECT_DIR$/src/screens/PortforlioScreen" />
       <recent name="$PROJECT_DIR$/src/screens/MarketScreen" />
-      <recent name="$PROJECT_DIR$/src/screens/RankingScreen" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -116,7 +105,7 @@
       <workItem from="1627658210693" duration="4495000" />
       <workItem from="1627663452705" duration="1162000" />
       <workItem from="1627664649082" duration="319000" />
-      <workItem from="1627665326331" duration="1261000" />
+      <workItem from="1627665326331" duration="5438000" />
     </task>
     <task id="LOCAL-00001" summary="format and generate screen">
       <created>1627663372637</created>
@@ -125,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627663372637</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="bottom bar works">
+      <created>1627668894641</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627668894641</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,16 +141,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="format and generate screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="format and generate screen" />
+    <MESSAGE value="bottom bar works" />
+    <option name="LAST_COMMIT_MESSAGE" value="bottom bar works" />
   </component>
   <component name="WindowStateProjectService">
     <state x="551" y="461" key="Github.ShareDialog" timestamp="1627664514099">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="551" y="461" key="Github.ShareDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1627664514099" />
-    <state x="312" y="297" key="Vcs.Push.Dialog.v2" timestamp="1627663374988">
+    <state x="312" y="297" key="Vcs.Push.Dialog.v2" timestamp="1627668900180">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="312" y="297" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1627663374988" />
+    <state x="312" y="297" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1627668900180" />
   </component>
 </project>
