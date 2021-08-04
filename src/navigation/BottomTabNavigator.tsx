@@ -33,7 +33,7 @@ export default function BottomTabNavigator() {
         }}
       />
       <BottomTab.Screen
-        name="Portfolio"
+        name="Assets"
         component={PortforlioScreen}
         options={{
           tabBarIcon: ({ color }) => <AntDesign name="piechart" size={30}  color={color} />,

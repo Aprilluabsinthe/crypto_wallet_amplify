@@ -11,18 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28c1674b-f0c1-4553-9939-f98df5487be6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/Saly-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Saly-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Saly-16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Saly-17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Saly-20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Saly-31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/HomeScreen/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AssetCoin/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AssetCoin/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/PortforlioScreen/styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/navigation/BottomTabNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/BottomTabNavigator.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/HomeScreen/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/HomeScreen/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/types.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/HomeScreen/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/HomeScreen/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/PortforlioScreen/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/PortforlioScreen/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +69,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/AssetCoin" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="aws" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
@@ -87,11 +82,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/AssetCoin" />
+      <recent name="$PROJECT_DIR$/src/screens/PortforlioScreen" />
       <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$/src/screens/RankingsScreen" />
       <recent name="$PROJECT_DIR$/src/screens/ProfileScreen" />
-      <recent name="$PROJECT_DIR$/src/screens/PortforlioScreen" />
-      <recent name="$PROJECT_DIR$/src/screens/MarketScreen" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -105,7 +100,8 @@
       <workItem from="1627658210693" duration="4495000" />
       <workItem from="1627663452705" duration="1162000" />
       <workItem from="1627664649082" duration="319000" />
-      <workItem from="1627665326331" duration="5438000" />
+      <workItem from="1627665326331" duration="8259000" />
+      <workItem from="1628088646741" duration="4063000" />
     </task>
     <task id="LOCAL-00001" summary="format and generate screen">
       <created>1627663372637</created>
@@ -121,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627668894641</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="home page with images">
+      <created>1627670857555</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1627670857555</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,16 +145,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="format and generate screen" />
     <MESSAGE value="bottom bar works" />
-    <option name="LAST_COMMIT_MESSAGE" value="bottom bar works" />
+    <MESSAGE value="home page with images" />
+    <option name="LAST_COMMIT_MESSAGE" value="home page with images" />
   </component>
   <component name="WindowStateProjectService">
     <state x="551" y="461" key="Github.ShareDialog" timestamp="1627664514099">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="551" y="461" key="Github.ShareDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1627664514099" />
-    <state x="312" y="297" key="Vcs.Push.Dialog.v2" timestamp="1627668900180">
+    <state x="312" y="297" key="Vcs.Push.Dialog.v2" timestamp="1627670859171">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="312" y="297" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1627668900180" />
+    <state x="312" y="297" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1627670859171" />
   </component>
 </project>
