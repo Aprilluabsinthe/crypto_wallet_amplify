@@ -11,16 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28c1674b-f0c1-4553-9939-f98df5487be6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ProfolioCoin/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProfolioCoin/styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UserRankingItem/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UserRankingItem/styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/MarketScreen/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/MarketScreen/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/PortforlioScreen/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/PortforlioScreen/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/ProfileScreen/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ProfileScreen/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/RankingsScreen/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/RankingsScreen/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/RankingsScreen/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/RankingsScreen/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ProfileScreen/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ProfileScreen/styles.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +98,7 @@
       <workItem from="1627664649082" duration="319000" />
       <workItem from="1627665326331" duration="8259000" />
       <workItem from="1628088646741" duration="6626000" />
-      <workItem from="1628673178901" duration="12698000" />
+      <workItem from="1628673178901" duration="14612000" />
     </task>
     <task id="LOCAL-00001" summary="format and generate screen">
       <created>1627663372637</created>
@@ -149,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628813073929</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="enable profile pages">
+      <created>1628825116131</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1628825116131</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,20 +175,21 @@
     <MESSAGE value="Asset Coins model setup" />
     <MESSAGE value="finish coin&#10;UI" />
     <MESSAGE value="market UI finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="market UI finished" />
+    <MESSAGE value="enable profile pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="enable profile pages" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="360" y="219" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1628814091601">
+    <state x="360" y="219" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1628825826898">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="360" y="219" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1628814091601" />
+    <state x="360" y="219" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1628825826898" />
     <state x="551" y="461" key="Github.ShareDialog" timestamp="1627664514099">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="551" y="461" key="Github.ShareDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1627664514099" />
-    <state x="312" y="297" key="Vcs.Push.Dialog.v2" timestamp="1628813077227">
+    <state x="312" y="297" key="Vcs.Push.Dialog.v2" timestamp="1628825117602">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="312" y="297" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1628813077227" />
+    <state x="312" y="297" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1628825117602" />
   </component>
 </project>
