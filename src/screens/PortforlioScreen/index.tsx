@@ -61,31 +61,30 @@ const AssetCoins = [
 const PortforlioScreen=(props)=>{
     return(
         <View style={styles.root}>
-            <>
-                <Image style={styles.image} source={image}/>
+            {/*<>*/}
+            {/*    <Image style={styles.image} source={image}/>*/}
 
-                <View style={styles.balanceContainer}>
-                    <Text style={styles.label}>Your Assets and Balance:</Text>
-                    <Text style={styles.balance}>$511.29</Text>
-                </View>
-            </>
+            {/*    <View style={styles.balanceContainer}>*/}
+            {/*        <Text style={styles.label}>Your Assets and Balance:</Text>*/}
+            {/*        <Text style={styles.balance}>$511.29</Text>*/}
+            {/*    </View>*/}
+            {/*</>*/}
             
             <FlatList
-                // style={{width:'100%'}}
+                style={{width:'100%'}}
                 data = {AssetCoins}
                 renderItem={({item}) => <AssetCoin AssetCoin={item} />}
                 showsHorizontalScrollIndicator={false}
                 ListHeaderComponentStyle = {{alignItems:'center'}}
-                // ListHeaderComponent = {() => (
-                //     <>
-                //         <Image style={styles.image} source={image}/>
-                //
-                //         <View style={styles.balanceContainer}>
-                //             <Text style={styles.label}>Your Assets and Balance:</Text>
-                //             <Text style={styles.balance}>$511.29</Text>
-                //         </View>
-                //     </>
-                // )}
+                ListHeaderComponent = {() => (
+                    <>
+                        <Image style={styles.image} source={image}/>
+                        <View style={styles.balanceContainer}>
+                            <Text style={styles.label}>Your Assets and Balance:</Text>
+                            <Text style={styles.balance}>$511.29</Text>
+                        </View>
+                    </>
+                )}
             />
         </View>
     );

@@ -8,14 +8,16 @@ const styles = StyleSheet.create({
         backgroundColor: '#ffffff',
     },
     image:{
+        backgroundColor: '#ffffff',
+        alignContent: "center",
         marginTop: "20%",
-        height: '25%',
+        height: "40%",
         aspectRatio: 1,
     },
     label:{
         fontSize: 18,
         fontWeight:"bold",
-        color: '#626161'
+
     },
     balance:{
         fontSize: 36,

@@ -8,25 +8,25 @@ const styles = StyleSheet.create({
         backgroundColor: '#ffffff',
     },
     image:{
-        marginTop: "30%",
-        height: 175,
+        backgroundColor: '#ffffff',
+        alignContent: "center",
+        marginTop: "20%",
+        height: "30%",
         aspectRatio: 1,
     },
     label:{
         fontSize: 18,
         fontWeight:"bold",
-        color: '#626161'
 
     },
     balance:{
         fontSize: 36,
         fontWeight:"bold",
         color: '#371001'
-
     },
     balanceContainer:{
         marginVertical:20,
-        width:"100%"
+        width:"90%"
     },
 
 });

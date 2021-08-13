@@ -34,9 +34,9 @@ const styles = StyleSheet.create({
         color:'#6d6c6c'
     },
     value:{
-        marginTop: 10,
         fontSize:20,
         fontWeight:"bold",
+        marginTop: 10,
         marginBottom: 5,
         color:"#94030b",
     }

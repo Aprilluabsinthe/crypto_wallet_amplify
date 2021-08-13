@@ -1,78 +1,46 @@
 import React from 'react';
 import {View, Text, Image, FlatList} from 'react-native';
 import styles from "./styles";
-import AssetCoin from "../../components/AssetCoin";
-const image = require("../../../assets/images/Saly-17.png")
-const availableImage = require("../../../assets/images/Available.png")
-const pendingImage = require("../../../assets/images/pending.png")
-const stakedImage = require("../../../assets/images/letterS.png")
+import MarketCoin from "../../components/MarketCoin";
+const image = require("../../../assets/images/marketpic.png")
+const ETH = require("../../../assets/images/ETH.png")
+const BitCoin = require("../../../assets/images/bitcoinc.png")
+const TezosCoin = require("../../../assets/images/tezosC.png")
 
-const AssetCoins = [
+const MarketCoins = [
     {
         "id" : 1,
-        "name" : "Staked",
-        "image": stakedImage,
+        "name" : "ETH",
+        "image": ETH,
         "symbol" : "USD",
-        "amount" : 11.29,
+        "valueChange24H" : 0.129,
         "valueUSD" : 11.29,
     },
     {
         "id" : 2,
-        "name" : "Available",
-        "image": availableImage,
+        "name" : "Tezos",
+        "image": TezosCoin,
         "symbol" : "USD",
-        "amount" : 129.01,
+        "valueChange24H" : 0.28,
         "valueUSD" : 129.01,
     },
     {
         "id" : 2,
-        "name" : "Pending",
-        "image": pendingImage,
+        "name" : "BitCoin",
+        "image": BitCoin,
         "symbol" : "USD",
-        "amount" : 371.99,
-        "valueUSD" : 371.99,
-    },
-    {
-        "id" : 1,
-        "name" : "Staked",
-        "image": stakedImage,
-        "symbol" : "USD",
-        "amount" : 11.29,
-        "valueUSD" : 11.29,
-    },
-    {
-        "id" : 2,
-        "name" : "Available",
-        "image": availableImage,
-        "symbol" : "USD",
-        "amount" : 129.01,
-        "valueUSD" : 129.01,
-    },
-    {
-        "id" : 2,
-        "name" : "Pending",
-        "image": pendingImage,
-        "symbol" : "USD",
-        "amount" : 371.99,
+        "valueChange24H" : -0.278,
         "valueUSD" : 371.99,
     },
 ]
 
-const PortforlioScreen=(props)=>{
+const MarketScreen=(props)=>{
     return(
         <View style={styles.root}>
-            {/*<>*/}
-            {/*    <Image style={styles.image} source={image}/>*/}
-
-            {/*    <View style={styles.balanceContainer}>*/}
-            {/*        <Text style={styles.label}>Market</Text>*/}
-            {/*    </View>*/}
-            {/*</>*/}
-
             <FlatList
                 style={{width:'100%'}}
-                data = {AssetCoins}
-                renderItem={({item}) => <AssetCoin AssetCoin={item} />}
+                data = {MarketCoins}
+                renderItem={({item}) => <MarketCoin MarketCoin={item} />}
                 showsHorizontalScrollIndicator={false}
                 ListHeaderComponentStyle = {{alignItems:'center'}}
                 ListHeaderComponent = {() => (
@@ -86,4 +54,4 @@ const PortforlioScreen=(props)=>{
     );
 };
 
-export default PortforlioScreen;
+export default MarketScreen;
