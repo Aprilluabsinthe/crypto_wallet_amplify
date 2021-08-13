@@ -1,36 +1,44 @@
 import React from 'react';
 import {View, Text, Image, FlatList} from 'react-native';
 import styles from "./styles";
-import MarketCoin from "../../components/MarketCoin";
+import UserRankingItem from "../../components/UserRankingItem";
 const image = require("../../../assets/images/market.png")
-const ETH = require("../../../assets/images/ETH.png")
-const BitCoin = require("../../../assets/images/bitcoinc.png")
-const TezosCoin = require("../../../assets/images/tezosC.png")
+const user1 = require("../../../assets/images/user1.jpeg")
+const user2 = require("../../../assets/images/user2.png")
+const user3 = require("../../../assets/images/user3.png")
+const user4 = require("../../../assets/images/user4.jpeg")
+const user5 = require("../../../assets/images/user5.png")
 
-const MarketCoins = [
+const UserRankingItems = [
     {
         "id" : 1,
-        "name" : "ETH",
-        "image": ETH,
-        "symbol" : "USD",
-        "valueChange24H" : 0.129,
-        "valueUSD" : 11.29,
+        "name" : "USER1",
+        "image": user1,
+        "netWorth" : 1129.01,
     },
     {
         "id" : 2,
-        "name" : "Tezos",
-        "image": TezosCoin,
-        "symbol" : "USD",
-        "valueChange24H" : 0.28,
-        "valueUSD" : 129.01,
+        "name" : "USER2",
+        "image": user2,
+        "netWorth" : 628.17,
     },
     {
-        "id" : 2,
-        "name" : "BitCoin",
-        "image": BitCoin,
-        "symbol" : "USD",
-        "valueChange24H" : -0.278,
-        "valueUSD" : 371.99,
+        "id" : 3,
+        "name" : "USER3",
+        "image": user3,
+        "netWorth" : 511.29,
+    },
+    {
+        "id" : 4,
+        "name" : "USER4",
+        "image": user4,
+        "netWorth" : 429.14,
+    },
+    {
+        "id" : 5,
+        "name" : "USER5",
+        "image": user5,
+        "netWorth" : 371.99,
     },
 ]
 
@@ -39,8 +47,8 @@ const RankingsScreen=(props)=>{
         <View style={styles.root}>
             <FlatList
                 style={{width:'100%'}}
-                data = {MarketCoins}
-                renderItem={({item}) => <MarketCoin MarketCoin={item} />}
+                data = {UserRankingItems}
+                renderItem={({item,index}) => <UserRankingItem User={item} place={index+1}/>}
                 showsHorizontalScrollIndicator={false}
                 ListHeaderComponentStyle = {{alignItems:'center'}}
                 ListHeaderComponent = {() => (

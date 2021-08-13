@@ -61,15 +61,6 @@ const AssetCoins = [
 const PortforlioScreen=(props)=>{
     return(
         <View style={styles.root}>
-            {/*<>*/}
-            {/*    <Image style={styles.image} source={image}/>*/}
-
-            {/*    <View style={styles.balanceContainer}>*/}
-            {/*        <Text style={styles.label}>Your Assets and Balance:</Text>*/}
-            {/*        <Text style={styles.balance}>$511.29</Text>*/}
-            {/*    </View>*/}
-            {/*</>*/}
-            
             <FlatList
                 style={{width:'100%'}}
                 data = {AssetCoins}

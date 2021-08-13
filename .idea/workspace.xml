@@ -11,29 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28c1674b-f0c1-4553-9939-f98df5487be6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/Available.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/ETH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/asset.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/bitcoinc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/letterS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/market.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/marketpic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/pending.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/staked.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/tezosC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/tezoscoin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/tezoscoinimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MarketCoin/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MarketCoin/styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/ProfileScreen/styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/RankingsScreen/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProfolioCoin/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProfolioCoin/styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UserRankingItem/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UserRankingItem/styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AssetCoin/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AssetCoin/styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/MarketScreen/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/MarketScreen/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/MarketScreen/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/MarketScreen/styles.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/PortforlioScreen/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/PortforlioScreen/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/PortforlioScreen/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/PortforlioScreen/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/ProfileScreen/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/ProfileScreen/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/screens/RankingsScreen/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/RankingsScreen/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/RankingsScreen/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/RankingsScreen/styles.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +72,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/screens/RankingsScreen" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="aws" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
@@ -93,10 +80,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/screens/RankingsScreen" />
       <recent name="$PROJECT_DIR$/src/screens/ProfileScreen" />
       <recent name="$PROJECT_DIR$/assets/images" />
-      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/screens/MarketScreen" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -118,7 +105,7 @@
       <workItem from="1627664649082" duration="319000" />
       <workItem from="1627665326331" duration="8259000" />
       <workItem from="1628088646741" duration="6626000" />
-      <workItem from="1628673178901" duration="9412000" />
+      <workItem from="1628673178901" duration="12698000" />
     </task>
     <task id="LOCAL-00001" summary="format and generate screen">
       <created>1627663372637</created>
@@ -155,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628789331595</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="market UI finished">
+      <created>1628813073929</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1628813073929</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,16 +174,21 @@
     <MESSAGE value="Asset Coins model setip" />
     <MESSAGE value="Asset Coins model setup" />
     <MESSAGE value="finish coin&#10;UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish coin&#10;UI" />
+    <MESSAGE value="market UI finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="market UI finished" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="360" y="219" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1628814091601">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="360" y="219" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1628814091601" />
     <state x="551" y="461" key="Github.ShareDialog" timestamp="1627664514099">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="551" y="461" key="Github.ShareDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1627664514099" />
-    <state x="312" y="297" key="Vcs.Push.Dialog.v2" timestamp="1628789334875">
+    <state x="312" y="297" key="Vcs.Push.Dialog.v2" timestamp="1628813077227">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="312" y="297" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1628789334875" />
+    <state x="312" y="297" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1628813077227" />
   </component>
 </project>

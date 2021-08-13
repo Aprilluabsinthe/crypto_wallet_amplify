@@ -25,7 +25,7 @@ const MarketCoins = [
         "valueUSD" : 129.01,
     },
     {
-        "id" : 2,
+        "id" : 3,
         "name" : "BitCoin",
         "image": BitCoin,
         "symbol" : "USD",

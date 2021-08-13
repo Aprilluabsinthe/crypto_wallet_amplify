@@ -29,6 +29,7 @@ const styles = StyleSheet.create({
         width:"90%"
     },
 
+
 });
 
 export default styles;
