@@ -1,6 +1,7 @@
 import React from 'react';
 import {View , Text, Image} from'react-native';
 import styles from './styles';
+import PercentageChange from "../PercentageChange";
 // const image = require( '../../../assets/images/tezoscoin.png')
 
 export interface AssetCoinProps{
@@ -37,8 +38,11 @@ const AssetCoin=(props: AssetCoinProps)=>{
 
             <View style={{alignItems:'flex-end'}}>
                 <Text style={styles.value}>${valueUSD}</Text>
-                <Text style={{color: valueChange24H > 0 ? '#f10606' : '#4a9806'}}>
-                    {valueChange24H > 0 && '+ '} {valueChange24H}</Text>
+                <PercentageChange value={valueChange24H} />
+
+                {/*<Text style={{color: valueChange24H > 0 ? '#f10606' : '#4a9806'}}>*/}
+                {/*    {valueChange24H > 0 && '+ '} {valueChange24H}*/}
+                {/*</Text>*/}
             </View>
         </View>
     );
