@@ -30,9 +30,9 @@ const CoinPriceGraph = ({ dataString }: CoinPriceGraphProps) => {
                 withInnerLines={false}
                 yAxisInterval={1} // optional, defaults to 1
                 chartConfig={{
-                    backgroundColor: "#e26a00",
+                    backgroundColor: "#ece0d5",
                     backgroundGradientFrom: "#ffffff",
-                    backgroundGradientTo: "#ffffff",
+                    backgroundGradientTo: "#f0f0f5",
                     decimalPlaces: 2, // optional, defaults to 2dp
                     color: (opacity = 1) => `rgba(23, 65, 255, ${opacity})`,
                     labelColor: (opacity = 1) => `rgba(0, 0, 0, ${opacity})`,
