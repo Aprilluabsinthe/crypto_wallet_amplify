@@ -48,7 +48,7 @@ function RootNavigator() {
         <Stack.Screen name="CoinExchange"
                       component={CoinExchangeScreen}
                       options ={{
-                          title: "Buy/Sell",
+                          title: "Coin Exchange",
                       }}
         />
 

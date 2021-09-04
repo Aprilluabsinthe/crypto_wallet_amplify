@@ -7,70 +7,49 @@ const styles = StyleSheet.create({
         alignItems: "center",
         backgroundColor: '#ffffff',
     },
-    image:{
-        // marginTop: "30%",
-        height: 50,
-        width: 50,
-        marginVertical: 10,
-        marginRight: 10,
-        borderRadius: 25,
+    title:{
+        fontSize:24,
+        fontWeight:'bold',
+        marginTop:20,
     },
-    topContainer:{
+    subtitle:{
+        fontSize:18,
+        marginVertical:10,
+        color:'#5f5f5f',
+    },
+    image:{
+        height: 200,
+        // width:50,
+        // marginRight:10,
+        // borderRadius:25,
+        resizeMode:'contain',
+    },
+    inputsContainer:{
         flexDirection:'row',
         justifyContent:'space-between',
-        backgroundColor: '#fafafa',
-        height:50,
-        margin:10,
-        width:"100%",
-    },
-    left:{
-        flexDirection:'row',
+        width:'100%',
         alignItems:'center',
     },
-    right:{
-        flexDirection:"row",
-    },
-    name:{
-        fontSize:18,
-        fontWeight:"bold",
-        marginBottom: 5,
-    },
-    label:{
-        fontSize:15,
-        // fontWeight:"bold",
-        marginBottom: 5,
-        color:"#646363",
-    },
-    value:{
-        fontSize:18,
-        fontWeight:"bold",
-    },
-    symbol:{
-        fontSize:13,
-        color:'#6d6c6c'
-    },
-    currentPriceContainer:{
+    inputContainer:{
+        // backgroundColor:'#992b2b',
         flexDirection:'row',
-        width:'100%',
         justifyContent:'space-between',
-    },
-    valueContainer:{
-        alignItems:"center",
-        marginHorizontal:5
-    },
-    change:{
-        fontSize:15,
-    },
-    row:{
-        flexDirection:'row',
-        height:'10%',
-        justifyContent:'space-between',
+        // width:'35%',
+        borderWidth:1,
+        borderColor:'#b1b1b1',
+        padding: 15,
+        // flex:1,
+        margin:20,
+        // flex: 1,
+        alignItems: 'stretch',
+
     },
     button:{
-        flex: 1,
-        margin: 5,
-        height: 30,
-        borderRadius: 30,
+        backgroundColor:'#50a5f1',
+        marginTop:'auto',
+        width:'100%',
+        height:50,
+        borderRadius: 50,
         alignItems:'center',
         justifyContent:'center',
     },
