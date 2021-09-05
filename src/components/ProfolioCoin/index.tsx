@@ -27,7 +27,7 @@ const ProfolioCoin=(props: ProfolioCoinProps)=>{
     return(
         <View style={styles.root}>
             <View style={styles.left}>
-                <Image style={styles.image} source = {image}/>
+                <Image style={styles.image} source = {{uri: image}}/>
                 <View>
                     <Text style={styles.name}>{name}</Text>
                     <Text style={styles.symbol}>{symbol}</Text>

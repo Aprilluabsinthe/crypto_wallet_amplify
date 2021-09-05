@@ -26,7 +26,7 @@ const UserRankingItem=(props: UserRankingItemProps)=>{
         <View style={styles.root}>
             <View style={styles.left}>
                 <Text style={styles.place}>{place}</Text>
-                <Image style={styles.image} source = {image}/>
+                <Image style={styles.image} source = {{uri: image}}/>
                 <View>
                     <Text style={styles.name}>{name}</Text>
                 </View>

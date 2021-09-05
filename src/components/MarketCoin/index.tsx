@@ -33,7 +33,7 @@ const AssetCoin=(props: AssetCoinProps)=>{
     return(
         <Pressable style={styles.root} onPress={()=>navigation.navigate('CoinDetails')}>
             <View style={styles.left}>
-                <Image style={styles.image} source = {image}/>
+                <Image style={styles.image} source = {{uri: image}}/>
                 <View>
                     <Text style={styles.name}>{name}</Text>
                     <Text style={styles.symbol}>{symbol}</Text>

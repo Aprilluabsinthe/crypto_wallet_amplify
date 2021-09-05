@@ -206,7 +206,7 @@ const CoinDetailsScreen=(props)=>{
         <View style={styles.root}>
             <View style={styles.topContainer}>
                 <View style={styles.left}>
-                    <Image style={styles.image} source = {coinData.image}/>
+                    <Image style={styles.image} source = {{ uri : coinData.image}}/>
                     <View>
                         <Text style={styles.name}>{coinData.name}</Text>
                         <Text style={styles.symbol}>{coinData.symbol}</Text>

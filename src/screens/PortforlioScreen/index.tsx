@@ -69,7 +69,7 @@ const PortforlioScreen=(props)=>{
                 ListHeaderComponentStyle = {{alignItems:'center'}}
                 ListHeaderComponent = {() => (
                     <>
-                        <Image style={styles.image} source={image}/>
+                        <Image style={styles.image} source={{uri: image}}/>
                         <View style={styles.balanceContainer}>
                             <Text style={styles.label}>Your Assets and Balance:</Text>
                             <Text style={styles.balance}>$511.29</Text>
