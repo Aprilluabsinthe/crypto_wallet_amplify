@@ -11,11 +11,13 @@ const WelcomeScreen=()=>{
     return(
         <View style={styles.root}>
             <Image style={styles.image} source={image}/>
+
             <Text style={styles.header1} >Welcome To Tezos Wallet!</Text>
             <Text style={styles.header2} >Invest, Stake, Transfer and so on. Every thing you may need to play with Tezos</Text>
-        <Pressable onPress={signInWithGoogle} style={styles.buttonContainer}>
-            <Image style={styles.buttonImage} source={buttonimage}></Image>
-        </Pressable>
+
+            <Pressable onPress={signInWithGoogle} style={styles.buttonContainer}>
+                <Image style={styles.buttonImage} source={buttonimage}></Image>
+            </Pressable>
 
         </View>
     );

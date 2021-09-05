@@ -11,12 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28c1674b-f0c1-4553-9939-f98df5487be6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/screens/WelcomeScreen/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/WelcomeScreen/styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/navigation/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/HomeScreen/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/HomeScreen/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/types.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/WelcomeScreen/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/WelcomeScreen/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +109,7 @@
       <workItem from="1629429297191" duration="160000" />
       <workItem from="1629833184095" duration="108000" />
       <workItem from="1630045128186" duration="22371000" />
-      <workItem from="1630546325308" duration="6014000" />
+      <workItem from="1630546325308" duration="13541000" />
     </task>
     <task id="LOCAL-00001" summary="format and generate screen">
       <created>1627663372637</created>
@@ -202,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630726399418</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="welcome Page">
+      <created>1630730365826</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1630730365826</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +242,8 @@
     <MESSAGE value="coin graphs" />
     <MESSAGE value="add navigation for sell / buy / coin details" />
     <MESSAGE value="drawing UI for coin Exchange interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="drawing UI for coin Exchange interfaces" />
+    <MESSAGE value="welcome Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="welcome Page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="219" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1628833099082">
@@ -246,9 +254,9 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="551" y="461" key="Github.ShareDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1627664514099" />
-    <state x="312" y="297" key="Vcs.Push.Dialog.v2" timestamp="1630726406652">
+    <state x="312" y="297" key="Vcs.Push.Dialog.v2" timestamp="1630730367782">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="312" y="297" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1630726406652" />
+    <state x="312" y="297" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1630730367782" />
   </component>
 </project>
